@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 export function Jumbotron(props) {
 	let { title, description, buttonLabel, buttonURL } = props;
 	return (
-		<div className="jumbotron m-5">
+		<div className="jumbotron">
 			<h1 className="display-4">{title}</h1>
 			<p className="lead">{description}</p>
 			<a
